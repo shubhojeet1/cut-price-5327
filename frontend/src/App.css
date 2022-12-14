@@ -36,3 +36,21 @@
     transform: rotate(360deg);
   }
 }
+#cartbag>Button:hover{
+
+background-color: white;
+}
+#womenbtn>Button:hover{
+  
+  background-color: rgb(18, 14, 14);
+  color: yellow;
+ 
+
+}
+#navimg>Image{
+  width: 10%;
+}
+#cartbag>Button{
+  /* padding-left: 100px; */
+  
+}
