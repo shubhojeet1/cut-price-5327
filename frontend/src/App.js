@@ -1,15 +1,12 @@
+import Login from "./pages/Login/Login";
 
-import './App.css';
-import Topnav from "./component/Home/Topnav"
 
 
 function App() {
   return (
-    <div className="App">
+    <div >
 
-     <Topnav/>
-
-    
+     <Login />
     </div>
   );
 }
