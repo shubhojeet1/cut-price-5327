@@ -28,37 +28,41 @@
 
 .NewArrival1st > h1{
     font-size: 30px;
+    
 }
 
-
-.shopNowDiv{
-    width: 350px;
+ 
+    .shopNowDiv{
+    width: 40%;
     background-color: aliceblue;
     position: absolute;
-    left: 100px;
-    top: 610px;
+    left: 200px;
+    top: 500px;
     z-index: 1;
-}
+} 
 
-.shopNowDiv > div{
+ .shopNowDiv > div{
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 20px;
     padding-bottom: 20px;
-}
+} 
 
-.shopNowDiv > h1{
+ .shopNowDiv > h1{
     font-size: 25px;
     font-weight: 600;
-}
+    text-align: center;
+    
+} 
 
-.shopNowDiv > p{
-    text-align: left;
-    padding-left: 20px;
+
+ .shopNowDiv > p{
+    margin-left: 60px;
+    align-items: center;
     color: gray;
-    margin-bottom: 20px;
-}
+  }
+
 
 .designerDiv{
     width: 90%;
@@ -256,3 +260,8 @@
 
 
 
+
+
+
+
+ 

@@ -2,7 +2,7 @@ import React from 'react'
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-import style from './nav.module.css'
+ import style from './nav.module.css'
 
 const NewArrival = () => {
    
@@ -20,12 +20,12 @@ const NewArrival = () => {
             <Slider {...settings}>
               <div className={style.sliderDivInner}>
                 <img
-                  src="https://www.yoox.com/images/items/10/10030637IF_14_f.jpg?impolicy=crop&width=387&height=490"
+                  src="https://www.yoox.com/images/items/10/10030637IF_14_f.jpg?impolicy=crop&width=306&height=390"
                   alt="1"
                 />
-                <h3 id="head_1">VERSACE YOUNG</h3>
-                <p>Sweatshirts</p>
-                <h4>$ 213.00</h4>
+                <h3 style={{ textAlign: "center" }}>VERSACE YOUNG</h3>
+                <p style={{ textAlign: "center" }}>Sweatshirts</p>
+                <h4 style={{ textAlign: "center" }}>$ 213.00</h4>
               </div>
               <div className={style.sliderDivInner}>
                 <img
@@ -100,7 +100,6 @@ const NewArrival = () => {
                 <h4 style={{ textAlign: "center" }}>$ 247.00</h4>
               </div>
             </Slider>
-            
           </div>
         );
       }
