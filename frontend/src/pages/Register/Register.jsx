@@ -52,6 +52,12 @@ const Register = () => {
       <Container>
         <Center>
           <Stack spacing={"2"}>
+            <Box bg="lightgray" border="1px solid black">
+              <Text>MYOOX</Text>
+              <Text>REGISTRATION</Text>
+              <Text>Take advantage of a faster checkout and enjoy promotions for registered customers only</Text>
+              <Text><Link path={"/"} style={{textDecoration:"underline"}}>Discover all the benefits</Link></Text>
+            </Box>
             <Box m="1" p="1">
               <Text>REGISTER WITH YOUR SOCIAL MEDIA ACCOUNT</Text>
               <Flex direction={"column"} gap="2">
