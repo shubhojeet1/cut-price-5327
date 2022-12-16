@@ -1,17 +1,22 @@
+import Login from "./pages/Login/Login";
+import Register from "./pages/Register/Register";
+import Topnav from "./component/Home/Topnav"
+import Footer from "./component/Home/Footer"
 
 
-import './App.css';
 
-
-import Menpage from './pages/MenPage';
 
 function App() {
   return (
-    <div className="App">
-    
-      <Menpage/>
-      {/* <Sliderimage/> */}
-      
+    <div >
+
+     <Register />
+     {/* <Login /> */}
+
+
+     {/* <Topnav/> */}
+     <Footer/>
+
     </div>
   );
 }
