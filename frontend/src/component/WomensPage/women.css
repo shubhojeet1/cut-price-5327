@@ -1,0 +1,163 @@
+.buyMore_mainDiv {
+    display: flex;
+    justify-content: center;
+    margin-top: 6rem;
+    text-align: center;
+    line-height: 2;
+}
+.top {
+    display: flex;
+    justify-content: center;
+}
+.designers {
+    height: 32rem;
+    width: 23rem;
+    /* border: 1px solid red; */
+    text-align: center;
+    margin-top: -2rem;
+    font-weight: bold;
+    background-color: aliceblue;
+    color: rgb(19, 17, 17);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* text-indent: 50px; */
+    letter-spacing: 1px;
+    line-height: 2;
+    border-radius: 4px;
+    
+}
+.designer_hover:hover {
+    color: rgb(174, 174, 174);
+    cursor: pointer;
+}
+.desi1 {
+    
+    color: rgb(17, 14, 14);
+    font-weight: 400;
+    
+}
+.desi {
+    color: rgb(17, 14, 14);
+    font-weight: 400;
+    text-decoration: underline;
+    
+}
+.buyMore_offer {
+    font-size: 24px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.buyMore_shop {
+    cursor: pointer;
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+    justify-content:space-evenly;
+}
+
+.buyMore_shop:hover {
+    color: rgb(150, 148, 148);
+}
+.newArrivalMain {
+    display: flex;
+    justify-content: center;
+    /* justify-content:space-evenly; */
+    gap: 1.7rem;
+    height: 34rem;
+    margin-top: 5rem;
+}
+.newArrivalProduct {
+    text-align: center;
+    background-color: #ffff;
+    color: black;
+    line-height: 2;
+    /* margin-top: -10px; */
+}
+.usOff {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    text-decoration: line-through;
+    /* justify-content: space-evenly; */
+}
+.stellaM {
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.sixSevenOne {
+    font-weight: 700;
+    font-size: 14px;
+}
+.newArrival {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* gap: 1.7rem; */
+    width: 24rem;
+    height: 34rem;
+    font-size: 2.1rem;
+    letter-spacing: 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.watchMainBanner {
+    display: flex;
+    justify-content: center;
+    margin-top: 12rem;
+    gap: 2rem;
+
+}
+.watchBanner {
+    height: 33rem;
+    width: 25rem;
+    text-align: center;
+}
+.girlBag {
+    margin-top: -3.7rem;
+}
+.watchNaming {
+    font-size: 1.7rem;
+    font-weight: 500;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.girlBag {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:390px) {
+
+    .buyMore_mainDiv {
+        display: flex;
+        justify-content: center;
+        margin-top: 6rem;
+        
+    }
+    .designers {
+        height: 32rem;
+        width: 23rem;
+        text-align: center;
+        margin-top: -2rem;
+        font-weight: bold;
+        background-color: aliceblue;
+        color: rgb(58, 58, 58);
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        letter-spacing: 1px;
+        line-height: 2;
+        border-radius: 4px;
+    }
+}
