@@ -1,7 +1,7 @@
 import React from "react";
 import style from "./nav.module.css";
 import { HiOutlineMail } from "react-icons/hi";
-import { Radio, RadioGroup, Stack, Button} from '@chakra-ui/react'
+import { Radio, RadioGroup, Stack, Button } from '@chakra-ui/react'
 import {FaFacebookF, FaTwitter, FaInstagram, FaYoutube, FaPinterestP} from "react-icons/fa";
 import {FcSmartphoneTablet} from "react-icons/fc";
 const Footer = () => {
@@ -16,6 +16,7 @@ const Footer = () => {
             <p>iPhone/iPad/Android</p>
             <p>Browser all Designers</p>
             <p>Browser all Categories</p>
+            <p>Gift delivery</p>
           </div>
         </div>
         <div className={style.sideDiv}>
@@ -34,7 +35,7 @@ const Footer = () => {
         <div className={style.newsDiv}>
           <div>
                <HiOutlineMail  className={style.emailIcon}/>   
-            <h3>YOOX NEWS</h3>
+            <h3>Smart Point</h3>
             <p>
               Sign up for the newsletter and discover the latest arrivals and
               promotions
@@ -93,7 +94,7 @@ const Footer = () => {
          </div>
          <div className={style.socialDiv1}>
             <FcSmartphoneTablet/>
-            <h3>DOWNLOAD THE APP FOR iOS/ANDROID</h3>
+          <a href="https://www.yoox.com/in/project/mobile_apps?"><h3>DOWNLOAD THE APP FOR iOS/ANDROID</h3></a>  
          </div>
       </div>
       <div className={style.lower3}>
