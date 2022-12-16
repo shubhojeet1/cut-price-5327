@@ -2,7 +2,10 @@ import Login from "./pages/Login/Login";
 import Register from "./pages/Register/Register";
 import Topnav from "./component/Home/Topnav"
 import Footer from "./component/Home/Footer"
-import AllRoutes from "./component/AllRoutes"
+import BlackNav from "./component/Home/BlackNav";
+// import slides from "./component/Home/slides"
+
+
 
 
 
@@ -11,16 +14,18 @@ function App() {
   return (
     <div >
 
-     {/* <Register />
-     <Login /> */}
+     {/* <Register /> */}
+     {/* <Login /> */}
 
 <AllRoutes/>
      {/* <Topnav/> */}
-     {/* <Footer/> */}
+    
+      <BlackNav/>
+      {/* <Footer/> */}
+      {/* <slides/> */}
 
     </div>
   );
 }
 
 export default App;
-

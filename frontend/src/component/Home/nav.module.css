@@ -212,7 +212,7 @@
     color: #333333;
  }
  
- .socialDiv1 >h3{
+ .socialDiv1 >a>h3{
       font-size: 12.8px;
       font-weight: 550;
  }
@@ -254,12 +254,17 @@
  .lower3>h6{
     font-size: 12px;
     margin-left: 240px;
+    cursor: pointer;
+ }
+ .lower3>p:hover{
+    color: white;
  }
 
  .lower3>p{
    color: #999999;
    font-size: 12px;
    margin-left: 590px;
+   cursor: pointer;
  }
 
 .mainUpper{
@@ -378,3 +383,8 @@
     background-color: #333333;
     font-size: 12px;
 }
+#blacknav > Button:hover{
+ 
+    background-color: red;
+  }
+  
