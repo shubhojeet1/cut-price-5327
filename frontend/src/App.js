@@ -3,6 +3,7 @@ import Register from "./pages/Register/Register";
 import Topnav from "./component/Home/Topnav"
 import Footer from "./component/Home/Footer"
 import BlackNav from "./component/Home/BlackNav";
+import AllRoutes from "./component/AllRoutes.jsx"
 // import slides from "./component/Home/slides"
 
 
