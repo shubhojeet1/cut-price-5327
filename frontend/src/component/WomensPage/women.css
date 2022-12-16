@@ -42,7 +42,7 @@
     
 }
 .buyMore_offer {
-    font-size: 24px;
+    font-size: 26px;
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
 .buyMore_shop {
@@ -61,11 +61,15 @@
     justify-content: center;
     /* justify-content:space-evenly; */
     gap: 1.7rem;
-    height: 34rem;
-    margin-top: 5rem;
+    height: 39rem;
+    margin-top: 5rem;padding: 10px 0px 10px 0px;
+    /* border: 1px solid; */
+    background-color: rgb(244, 244, 244);
+    padding: 39px 0px 0px 0px;
 }
 .newArrivalProduct {
     text-align: center;
+    height: 34rem;
     background-color: #ffff;
     color: black;
     line-height: 2;
@@ -119,6 +123,19 @@
 }
 .girlBag {
     text-align: center;
+}
+.partyBanner {
+    height: 40rem;
+    width: 65%;
+    
+    margin: auto;
+    margin-top: 6rem;
+}
+
+.hugBanner {
+    width: 90%;
+    margin: auto;
+    margin-top: 6rem;
 }
 
 

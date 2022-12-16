@@ -30,10 +30,11 @@ const data = [
   ];
   function WomenMap() {
     return (
-      <div>
-        <div style={{ display: "flex", gap: "2rem", textAlign:"center", marginTop:"4rem" }}>
+      <div style={{ padding:"1px 0px 50px 0px",marginTop:"2rem", backgroundColor:"rgb(244, 244, 244)"}} >
+        <div style={{ display: "flex", gap: "2rem", textAlign:"center", marginTop:"4rem",  }}>
         <div
           style={{
+            
             width: "27%",
             display: "flex",
             justifyContent: "center",
@@ -43,7 +44,7 @@ const data = [
           <div>
             <p style={{ fontSize: "32px", letterSpacing:"2px" }}>ONE OF A KIND</p>
             <a
-              style={{ fontSize: "18px", color: "white" }}
+              style={{ fontSize: "18px", color: "Black" }}
               href="www.google.com"
             >
               VIEW ALL

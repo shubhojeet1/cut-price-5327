@@ -124,8 +124,17 @@ export default function Women() {
       </div>
       {/* 3rd div ending */}
 
+    
 <WomenMap/>
 
+<div className="partyBanner" >
+        <img src="https://www.yoox.com/images/yoox80/banners/6833_3_8byYoox_Special_WM.png?634485886601286852#width=930&height=660" alt="" />
+      </div>
+
+      <div className="hugBanner">
+        <img src="https://www.yoox.com/images/yoox80/banners/6824_1_XmasGift_WM_Bottom.jpg?634485886601286852#width=1380&height=637" alt="" />
+        
+      </div>
 
     </>
   )
