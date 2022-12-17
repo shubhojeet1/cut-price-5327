@@ -3,11 +3,14 @@
     overflow: hidden;
     padding: 26px;
     /* border: 1px solid blue; */
+    width: 85%;
+    margin: auto;
 }
 .product-container{
     /* border: 1px solid red; */
     padding: 0 10px;
     display: flex;
+    gap:10px;
     overflow: hidden;
     scroll-behavior: smooth;
 }
@@ -22,18 +25,19 @@
     justify-content: center;
     align-items: center;
     background-color: white;
+    
 }
 .next-btn{
     right: 0;
 }
 .pre-btn p,.next-btn p {
     font-size: 50px;
-    background-color:white ;
+    background-color:white;
     box-shadow: 0px 0px 10px 1px black;
-    border-radius: 10px;
+    border-radius: 50px;
     color: black;
     width: 50px;
-    height: 75px;
+    height: 50px;
     cursor: pointer;
 }
 #image{
@@ -41,7 +45,9 @@
     /* align-items: center; */
     display: block;
     margin: auto;
+    /* border: 1px solid red; */
 }
 .text{
     color: black;
+    text-align: center;
 }

@@ -1,0 +1,25 @@
+#asaldiv{
+    display: flex;
+    justify-content: space-around;
+    background-color: antiquewhite;
+}
+#firstdiv{
+    background-color: blueviolet;
+    border: 1px solid red;
+    width: 45%;
+}
+#product_div{
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   gap: 20px;
+    justify-content: space-around;
+    flex-direction: column;
+    
+    width: 45%;
+}
+#icons{
+    margin-top: 5px;
+}
+#text{
+    text-align: center;
+}
