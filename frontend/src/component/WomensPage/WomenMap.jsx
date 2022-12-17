@@ -42,7 +42,7 @@ const data = [
           }}
         >
           <div>
-            <p style={{ fontSize: "32px", letterSpacing:"2px" }}>ONE OF A KIND</p>
+            <p style={{ fontSize: "32px",color:"black", letterSpacing:"2px" }}>ONE OF A KIND</p>
             <a
               style={{ fontSize: "18px", color: "Black" }}
               href="www.google.com"
@@ -99,6 +99,5 @@ const data = [
       </div>
     );
   }
-  
   export default WomenMap;
   

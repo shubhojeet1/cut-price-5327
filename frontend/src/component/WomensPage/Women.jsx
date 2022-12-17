@@ -1,5 +1,7 @@
 import "./women.css"
 import WomenMap from "./WomenMap";
+// import ProductImagesSlider from "./SingleWomen"
+import NewArrival from "./NewArrival";
 const data = [
   {
     image:
@@ -65,6 +67,8 @@ export default function Women() {
       <p className="designer_hover"><a href=""><span className="desi" >VIEW ALL</span></a></p>
       </div>
 
+      
+
       <div><img src="https://www.yoox.com/images/yoox80/banners/6824_1_TrendSpace_HL_W.jpg?634485886601286852#width=430&height=600" alt="" />
       <br />
       <div className="buyMore_offer">THE SPACE AGE</div>
@@ -75,11 +79,11 @@ export default function Women() {
     </div>
     {/* 1st ending div*/}
 
-    <div className="newArrivalMain">
+    {/* <div className="newArrivalMain">
       <div className="newArrival">NEW ARRIVALS</div>
       <br />
-      {/* <p><a href=""></a>VIEW ALL</p> */}
-      <div className="newArrivalProduct"><img src="https://www.yoox.com/images/items/14/14295830IB_14_f.jpg?impolicy=crop&width=306&height=390" alt="" />
+      
+      <div className="newArrivalProduct"><a href={ProductImagesSlider}><img src="https://www.yoox.com/images/items/14/14295830IB_14_f.jpg?impolicy=crop&width=306&height=390" alt="" /></a>
       <span className="stellaM">STELLA McCARTNEY</span><br />
       <span>Sweater</span><br />
       <strike className="usOff" >US$ 1.027,00 <div className="thirtyFour" >34% OFF</div></strike>
@@ -89,18 +93,20 @@ export default function Women() {
       <div className="newArrivalProduct"><img src="https://www.yoox.com/images/items/50/50294257EM_14_f.jpg?impolicy=crop&width=306&height=390" alt="" />
       <span className="stellaM">APM Monaco</span><br />
       <span>Earrings</span><br />
-      {/* <strike className="usOff" >US$ 1.027,00 <div className="thirtyFour" >34% OFF</div></strike> */}
+      
       <span className="sixSevenOne">US$ 671,00</span>
       </div>
 
       <div className="newArrivalProduct"><img src="https://www.yoox.com/images/items/45/45717732NW_14_f.jpg?impolicy=crop&width=306&height=390" alt="" />
       <span className="stellaM">MARNI</span><br />
       <span>Cross-body bags</span><br />
-      {/* <strike className="usOff" >US$ 1.027,00 <div className="thirtyFour" >34% OFF</div></strike> */}
+      
       <span className="sixSevenOne">US$ 671,00</span>
       </div>
 
-    </div>
+    </div> */}
+
+    <NewArrival/>
       {/* 2nd div end */}
 
       <div className="watchMainBanner">
@@ -126,6 +132,7 @@ export default function Women() {
 
     
 <WomenMap/>
+<NewArrival/>
 
 <div className="partyBanner" >
         <img src="https://www.yoox.com/images/yoox80/banners/6833_3_8byYoox_Special_WM.png?634485886601286852#width=930&height=660" alt="" />
