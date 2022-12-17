@@ -3,7 +3,7 @@ import Register from "./pages/Register/Register";
 import Topnav from "./component/Home/Topnav"
 import Footer from "./component/Home/Footer"
 import BlackNav from "./component/Home/BlackNav";
-import AllRoutes from "./component/AllRoutes.jsx"
+import AllRoutes from "./component/Routes/AllRoutes";
 // import slides from "./component/Home/slides"
 
 
@@ -21,7 +21,7 @@ function App() {
 <AllRoutes/>
      {/* <Topnav/> */}
     
-      <BlackNav/>
+      {/* <BlackNav/> */}
       {/* <Footer/> */}
       {/* <slides/> */}
 
