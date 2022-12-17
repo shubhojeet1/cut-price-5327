@@ -2,9 +2,11 @@ import Login from "./pages/Login/Login";
 import Register from "./pages/Register/Register";
 import Topnav from "./component/Home/Topnav"
 import Footer from "./component/Home/Footer"
-import Menpage from "./pages/MenPage";
-import Kids from "./pages/Kids";
-import Viewall from "./component/Menpage/Viewall";
+import BlackNav from "./component/Home/BlackNav";
+import AllRoutes from "./component/AllRoutes.jsx"
+// import slides from "./component/Home/slides"
+
+
 
 
 
@@ -16,13 +18,12 @@ function App() {
      {/* <Register /> */}
      {/* <Login /> */}
 
-
+<AllRoutes/>
      {/* <Topnav/> */}
-     <Menpage/>
-     {/* <Kids/> */}
-     
-     {/* <Viewall/> */}
-     {/* <Footer/> */}
+    
+      <BlackNav/>
+      {/* <Footer/> */}
+      {/* <slides/> */}
 
     </div>
   );

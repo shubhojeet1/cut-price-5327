@@ -12,6 +12,9 @@ const Kids = () => {
       <div className={style.upperMenDiv}>
         <div className={style.banner1Div}>
           <img
+            style={{
+              width:"100%"
+            }}
             className="js1"
             src="https://www.yoox.com/images/yoox80/banners/6821_2_Christmas_Main_K.jpg?634485886869569819#width=1380&height=638"
             alt="1"
@@ -57,7 +60,15 @@ const Kids = () => {
             src="https://www.yoox.com/images/yoox80/banners/6821_1_TOYS_Tris_K.jpg?634485886869569819#width=473&height=660"
             alt="1"
           />
-          <h2 style={{ textAlign: "center" }}>LIVING IN DREAMLAND</h2>
+          <h2
+            style={{
+              textAlign: "center",
+              lineHeight: "32px",
+              display: "block",
+            }}
+          >
+            LIVING IN DREAMLAND
+          </h2>
           <p style={{ textAlign: "center" }}>Homewear & Toys</p>
         </div>
         <div className={style.watchHeartMidDiv}>
@@ -65,7 +76,15 @@ const Kids = () => {
             src="https://www.yoox.com/images/yoox80/banners/6821_1_Newborn_Tris_K.png?634485886869569819#width=387&height=540"
             alt="2"
           />
-          <h2 style={{ textAlign: "center" }}>SOFT & FOZZY</h2>
+          <h2
+            style={{
+              textAlign: "center",
+              lineHeight: "32px",
+              display: "block",
+            }}
+          >
+            SOFT & FOZZY
+          </h2>
           <p style={{ textAlign: "center" }}>Comfort is key</p>
         </div>
         <div>
