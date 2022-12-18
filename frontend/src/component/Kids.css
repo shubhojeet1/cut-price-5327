@@ -1,0 +1,284 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.kidsPage {
+    background-color: rgb(240, 235, 235);
+    margin-top: 130px;
+}
+/* kidsPage navbar css start */
+.top_navbar {
+      position: fixed; 
+    width: 100%;
+    background-color: rgb(47, 46, 46);
+    top: 0; left: 0; right: 0;
+
+}
+.kidsPage_navbar{
+    width: 30%;
+    height: 35px;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.kidsPage_navbar > p {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 11px;
+    color: rgb(237, 233, 233);
+}
+/* kidsPage navbar css end */
+
+/* kidsPage poster css start */
+.kidsPage_poster{
+    width: 90%;
+    height: 650px;
+    margin: auto;
+}
+.kidsPage_poster__disscount {
+    width: 100%;
+    height: 70px;
+    background-image: linear-gradient(to bottom, rgb(251, 0, 255) , #ff7300);
+}
+.kidsPage_poster__disscount > h2 {
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.kidsPage_poster__disscount > div {
+    width: 18%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.kidsPage_poster__disscount > div > p {
+    text-transform: uppercase;
+    font-size: 15px;
+    text-decoration: underline;
+}
+.kidsPage_poster > img {
+    width: 100%;
+    height: 580px;
+}
+/* kidsPage poster css end */
+
+/* New arrival page css start */
+.kidsPage_newArrival {
+    width: 90%;
+    height: 550px;
+    margin: auto;
+    margin-top: 140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.newArrival {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+}
+.newArrival_items {
+    width: 22%;
+    height: 100%;
+    background-color: white;
+}
+.newArrival > h1 {
+    text-transform: uppercase;
+    font-size: 36px;
+}
+.newArrival > p {
+    text-transform: uppercase;
+    font-size: 16px;
+    /* font-weight: bold; */
+    text-decoration: underline;
+    padding-top: 10px;
+
+}
+.newArrival_items > h1 {
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding-top: 20px;
+}
+.newArrival_items > h2 {
+    font-size: 13px;
+    padding-top: 20px;
+}
+.newArrival_items > p {
+    font-size: 14px;
+    padding-top: 10px;
+}
+.newArrival_items > p > del {
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.newArrival_items > h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 5px;
+}
+/* New arrival page css end */
+
+/* designers part css start */
+.kidsPage__designer{
+    width: 100%;
+    height: auto;
+    margin-top: 100px;
+}
+.designer {
+    width: 25%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.designer > h1 {
+    text-transform: uppercase;
+    font-size: 35px;
+}
+.girlsBoys{
+    width: 40%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 35px;
+}
+.girlsBoys > p {
+    text-decoration: underline;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.girlsBoys > h6 + p {
+    color: gray;
+}
+.kidSizeDiv {
+    width: 80%;
+    height: 560px;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.babySizeCloth {
+    width: 30%;
+    height: 100%;
+    background-color: white;
+}
+.babySizeCloth > h1 {
+    font-size: 15px;
+    text-transform: uppercase;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+.babySizeCloth > p {
+    font-weight: bold;
+    padding-top: 10px;
+}
+.babySizeCloth > p:hover {
+    color: gray;
+    cursor: pointer;
+}
+.babySizeCloth > h4 {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: underline;
+    padding-top: 60px;
+}
+/* designers part css end */
+
+/* Popular brand css start */
+.kidsPage_popularBrand {
+    width: 100%;
+    height: 950px;
+    background-color: white;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 70px;
+}
+.popularBrand__leftRight {
+    width: 28%;
+    height: 83%;
+}
+.popularBrand__leftRight > img {
+    width: 100%;
+    height: auto;
+}
+.popularBrand__leftRight > h1 {
+    font-size: 27px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-top: 20px;
+}
+.popularBrand__leftRight > p {
+    font-size: 14px;
+    padding-top: 5px;
+}
+.popularBrand__center {
+    width: 34%;
+    height: 100%;
+}
+.popularBrand__center > img {
+    width: 100%;
+    height: auto;
+}
+.popularBrand__center > h1 {
+    font-size: 27px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-top: 20px;
+}
+.popularBrand__center > p {
+    font-size: 14px;
+    padding-top: 5px;
+}
+.twoSubDiv {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 15px;
+}
+.twoSubDiv > p {
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 14px;
+    font-weight: bold;
+}
+/* Popular brand css end */
+
+.lastPoster {
+    width: 90%;
+    height: auto;
+    margin: auto;
+    padding-bottom: 60px;
+}
+.lastPoster > img {
+    width: 100%;
+    height: auto;
+}
+h1{
+    text-align: center;
+
+}
+h2{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+h4{
+    text-align: center;
+}
