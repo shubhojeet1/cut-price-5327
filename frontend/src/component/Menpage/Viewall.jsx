@@ -1,8 +1,9 @@
 import React from 'react'
 import "./Viewall.css"
-import { Box, Accordion, AccordionItem, AccordionButton, AccordionPanel, VStack, Text,Image } from '@chakra-ui/react'
-import { MinusIcon, AddIcon } from '@chakra-ui/icons'
-import { AiFillCaretRight } from "react-icons/ai"
+import { Box, Accordion, AccordionItem, AccordionButton, AccordionPanel, VStack, Text,Image } from '@chakra-ui/react';
+// import { MinusIcon, AddIcon } from '@chakra-ui/icons'
+import { AiFillCaretRight } from "react-icons/ai";
+import {MinusIcon, AddIcon} from '@chakra-ui/icons'
 
 
 

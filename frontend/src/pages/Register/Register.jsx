@@ -14,7 +14,7 @@ import {
   HStack,
 } from "@chakra-ui/react";
 import { Link } from "react-router-dom";
-import axios from "axios";
+import axios from "axios"
 
 const initialState = {
   first_name: "",

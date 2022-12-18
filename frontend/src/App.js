@@ -5,6 +5,8 @@ import Footer from "./component/Home/Footer"
 import BlackNav from "./component/Home/BlackNav";
 import AllRoutes from "./component/Routes/AllRoutes";
 // import slides from "./component/Home/slides"
+import Women from "./component/WomensPage/Women"
+import Menpage from "./pages/MenPage";
 
 
 
@@ -15,14 +17,18 @@ function App() {
   return (
     <div >
 
-     {/* <Register /> */}
+    
      {/* <Login /> */}
 
-<AllRoutes/>
-     {/* <Topnav/> */}
+{/* <AllRoutes/> */}
+     <Topnav/>
     
-      {/* <BlackNav/> */}
-      {/* <Footer/> */}
+      <BlackNav/>
+      <Register />
+      {/* <Menpage/> */}
+
+      {/* <Women/> */}
+      <Footer/>
       {/* <slides/> */}
 
     </div>
