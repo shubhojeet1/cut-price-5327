@@ -9,9 +9,6 @@ import Viewall from '../component/Menpage/Viewall'
 
 const Menpage = () => {
 
-
-
-
     return (
         <div>
             <Box h="700px" w="100vw" position="relative" bgImage={`url("https://www.yoox.com/images/yoox80/banners/6895_1_Genz_WM_Main.png?634485886869569819&impolicy=cropDefault&width=960&height=510")`} bgPosition="center" bgSize="cover">
@@ -19,16 +16,18 @@ const Menpage = () => {
                 <Container bg="white" w="fit-content" padding="25px" position="absolute" bottom="10px" left='20px'   >
                     <Heading fontSize="24px" fontFamily="'Playfair Display', serif" lineHeight="24px">HERES COMES THE NIGHT</Heading>
 
+
+
+
+
+
+
                     <Text fontFamily="Montserrat - 300" fontSize="14px">Rokes-Inspired Leaders Looks And Daring Details</Text>
-
-
                     <HStack w="fit-content" margin="auto" mt="5px" >
 
                         <Link href='#' textDecoration="underline" fontSize='14px' color="#333333" >GET THE LOOK</Link>
 
-        
                         <Link href='#' textDecoration="underline" fontSize='14px' color="#333333" >DISCOVER MORE</Link>
-
                     </HStack>
 
                 </Container>
