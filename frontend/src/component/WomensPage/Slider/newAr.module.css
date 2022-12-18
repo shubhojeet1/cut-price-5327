@@ -1,0 +1,22 @@
+
+/* css for mobilre device  */
+
+.sliderDiv {
+    /* border: 1px solid red; */
+    width: 60%;
+    margin: auto;
+    margin-top: 4rem; 
+}
+
+.sliderDivInner{
+    border: 6px solid rgb(230, 230, 230);
+    width: 20%;
+    gap: 20px;
+    
+}
+
+.sliderDivInner > img {
+    /* border: 3px solid rgb(255, 255, 255); */
+    /* border: 6px solid rgb(230, 230, 230); */
+    width: auto;
+}

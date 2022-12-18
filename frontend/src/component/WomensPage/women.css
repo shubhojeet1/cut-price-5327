@@ -1,3 +1,7 @@
+* {
+    background-color: #ffff;
+    color: black;
+}
 .buyMore_mainDiv {
     display: flex;
     justify-content: center;
@@ -16,13 +20,15 @@
     text-align: center;
     margin-top: -2rem;
     font-weight: bold;
-    background-color: aliceblue;
+    background-color: #ffff;
+    color: black;
     color: rgb(19, 17, 17);
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     /* text-indent: 50px; */
     letter-spacing: 1px;
     line-height: 2;
     border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     
 }
 .designer_hover:hover {
@@ -150,6 +156,15 @@
 
 
 
+@media screen and (max-width:992px) {
+.watchMainBanner {
+    margin-top: 5rem;
+}
+.partyBanner {
+    margin-top: -1rem;
+    margin-bottom: -15rem;
+}
+}
 
 
 
@@ -157,7 +172,8 @@
 
 
 
-@media screen and (max-width:390px) {
+
+/* @media screen and (max-width:390px) {
 
     .buyMore_mainDiv {
         display: flex;
@@ -178,4 +194,4 @@
         line-height: 2;
         border-radius: 4px;
     }
-}
+} */
