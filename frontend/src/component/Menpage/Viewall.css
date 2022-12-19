@@ -17,9 +17,29 @@
     
     width: 45%;
 }
-#icons{
-    margin-top: 5px;
-}
-#text{
+
+#text_name,#text_title,#text_price,#text_offer{
     text-align: center;
+}
+
+#text_name,#text_price{
+    font-weight: bold;
+}
+#text_title{
+    /* font-weight: lighter; */
+    font-size: 12px;
+}
+#text_offer{
+    font-size: 15px;
+}
+#iconn{
+    font-size: 22px;
+}
+#new_text{
+    font-weight: bold;
+    font-size: 15px;
+}
+#image_box{
+  
+    
 }

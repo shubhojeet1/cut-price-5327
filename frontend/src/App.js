@@ -4,6 +4,8 @@ import Topnav from "./component/Home/Topnav"
 import Footer from "./component/Home/Footer"
 import BlackNav from "./component/Home/BlackNav";
 import AllRoutes from "./component/AllRoutes.jsx"
+import Menpage from "./pages/MenPage";
+import Viewall from "./component/Menpage/Viewall";
 // import slides from "./component/Home/slides"
 
 
@@ -18,12 +20,15 @@ function App() {
      {/* <Register /> */}
      {/* <Login /> */}
 
-<AllRoutes/>
+{/* <AllRoutes/> */}
      {/* <Topnav/> */}
     
-      <BlackNav/>
-      {/* <Footer/> */}
+      {/* <BlackNav/> */}
+      
       {/* <slides/> */}
+      <Viewall/>
+      {/* <Menpage/> */}
+      {/* <Footer/> */}
 
     </div>
   );

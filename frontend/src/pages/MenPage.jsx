@@ -1,15 +1,14 @@
 import React from 'react'
-import { Box, Heading, Text, Link, HStack, Container, Image, VStack, Flex } from "@chakra-ui/react"
-
+import { Box, Heading, Text,  HStack,  Container, Image, VStack, Flex,Link } from "@chakra-ui/react"
+// import { Link } from 'react-router-dom'
 import Sliderimage from '../component/Sliderone/Sliderimage'
-import NewArrival from '../component/NewArrival'
-import Viewall from '../component/Menpage/Viewall'
+import { NavLink } from 'react-router-dom'
+// import Viewall from '../component/Menpage/Viewall'
+import "./MenPage.css"
 
 
 
 const Menpage = () => {
-
-
 
 
     return (
@@ -44,7 +43,7 @@ const Menpage = () => {
                     <Box  >
                         <Image src="https://www.yoox.com/images/yoox80/banners/6824_3_WinterChecklist_HL_M.jpg?634485886869569819#width=430&height=600" />
                         <Heading mt="15px" fontSize="24px" fontFamily="Playfair Display - 700" lineHeight="24px" ml="25%" width='full'>ITS COLDS OUTSIDES</Heading>
-                        <Text mt="15px" fontFamily="Montserrat - 300" fontSize="14px" ml="25%" width='full' >Everything You Need To stay Warm This Winter</Text>
+                        <Text mt="15px" fontFamily="Montserrat - 300" fontSize="14px"  width='full'  >Everything You Need To stay Warm This Winter</Text>
                         <Link mt="15px" as="b" href='#' textDecoration="underline" fontSize='14px' color="#333333" ml="45%" width='full'>SHOP NOW</Link>
                     </Box>
                     <Box w="sm" bgColor="#fff" position="absolute" top="-25px" left="33%" p={7}>
@@ -71,7 +70,7 @@ const Menpage = () => {
                     <Box>
                         <Image src="https://www.yoox.com/images/yoox80/banners/6824_1_XmasGift_M_MainMob.jpg?634485886869569819#width=430&height=600" />
                         <Heading mt="15px" fontSize="24px" fontFamily="Playfair Display - 700" lineHeight="24px" ml="25%" width='full'>ITS COLDS OUTSIDES</Heading>
-                        <Text mt="15px" fontFamily="Montserrat - 300" fontSize="14px" ml="25%" width='full'>Everything You Need To stay Warm This Winter</Text>
+                        <Text mt="15px" fontFamily="Montserrat - 300" fontSize="14px"  width='full'>Everything You Need To stay Warm This Winter</Text>
                         <HStack w="fit-content" margin="auto" mt={"5px"} >
                             <Link as="b" href='#' textDecoration="underline" fontSize='14px' color="#333333"  >SHOW THE MAGIC</Link>
                             <Link as="b" href='#' textDecoration="underline" fontSize='14px' color="#333333" >DISCOVER MORE</Link>
@@ -85,12 +84,12 @@ const Menpage = () => {
 
             {/* New Areavel Area */}
 
-            <Heading fontSize="5xl" textAlign="center">NEW ARRIVALS</Heading>
-            <Link href='#' textDecoration="underline" fontSize='14px' color="#333333" textAlign="center" ml={"50%"}>VIEW ALL<Viewall/></Link>
+            <Text fontSize="28px" textAlign="center" fontFamily="Montserrat - 300" fontWeight="light" mt="120px">NEW ARRIVALS</Text>
+            <NavLink id='viewall' to='/viewall' color='red' textDecoration="underline" fontSize='14px'  textAlign="center" ml={"50%"}>VIEW ALL</NavLink>
             <br />
             <br />
             <Sliderimage />
-            {/* <NewArrival/> */}
+            
 
             {/* Black dress  Area */}
             <br />
@@ -174,7 +173,7 @@ const Menpage = () => {
                         <Text mt="10px" fontFamily="Montserrat - 300" fontSize="14px">Innovative And Responsible:Discover The HomeWare Collection</Text>
 
 
-                        <Link href='#' textDecoration="underline" fontSize='14px' color="#333333" ml="-20px" >SHOP NOW</Link>
+                        <Link href='#' textDecoration="underline" fontSize='14px' color="#333333" ml="170px">SHOP NOW</Link>
 
                     </Container>
 
