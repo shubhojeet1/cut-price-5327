@@ -1,25 +1,85 @@
-#asaldiv{
-    display: flex;
-    justify-content: space-around;
-    background-color: antiquewhite;
+#asaldiv {
+  display: flex;
+  justify-content: space-around;
+  background-color: antiquewhite;
 }
-#firstdiv{
-    background-color: blueviolet;
-    border: 1px solid red;
-    width: 45%;
+#firstdiv {
+  background-color: blueviolet;
+  border: 1px solid red;
+  width: 45%;
 }
-#product_div{
-   display: grid;
-   grid-template-columns: repeat(3,1fr);
-   gap: 20px;
-    justify-content: space-around;
-    flex-direction: column;
-    
-    width: 45%;
+#product_div {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  justify-content: space-around;
+  flex-direction: column;
+
+  width: 45%;
 }
-#icons{
-    margin-top: 5px;
+
+#text_name,
+#text_title,
+#text_price,
+#text_offer {
+  text-align: center;
 }
-#text{
-    text-align: center;
+
+#text_name,
+#text_price {
+  font-weight: bold;
+}
+#text_title {
+  /* font-weight: lighter; */
+  font-size: 12px;
+}
+#text_offer {
+  font-size: 15px;
+}
+#iconn {
+  font-size: 22px;
+}
+#new_text {
+  font-weight: bold;
+  font-size: 15px;
+}
+#image_box {
+}
+
+/* cart */
+
+.btn_1 {
+  background-color: #ea4c89;
+  border-radius: 6px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  /* height: 40px; */
+  /* line-height: 10px; */
+  list-style: none;
+  margin: auto;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 40%;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px;
+}
+
+.button-1:hover,
+.button-1:focus {
+  background-color: #f082ac;
 }

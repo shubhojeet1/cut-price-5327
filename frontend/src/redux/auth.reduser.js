@@ -39,12 +39,15 @@ export const userRegister = (obj) => {
     try {
       dispatch(setStatus(STATUS.LOADING));
 
-      const { data } = await axios(`http://localhost:8080/api/v1/register`, {
-        method: "post",
-        data: {
-          ...obj,
-        },
-      });
+      const { data } = await axios(
+        `https://shy-tan-coypu-garb.cyclic.app/api/v1/register`,
+        {
+          method: "post",
+          data: {
+            ...obj,
+          },
+        }
+      );
 
       if (data?.success) {
         //console.log(data);
@@ -63,15 +66,18 @@ export const userLogin = (val) => {
     try {
       dispatch(setStatus(STATUS.LOADING));
 
-      const { data } = await axios(`http://localhost:8080/api/v1/login`, {
-        method: "post",
-        data: {
-          ...val,
-        },
-      });
+      const { data } = await axios(
+        `https://shy-tan-coypu-garb.cyclic.app/api/v1/login`,
+        {
+          method: "post",
+          data: {
+            ...val,
+          },
+        }
+      );
 
       if (data?.success) {
-        console.log(data);
+        console.log(data.status);
 
         dispatch(setToken(data.token));
         dispatch(setIsAuth(true));

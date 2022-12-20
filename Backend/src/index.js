@@ -67,16 +67,18 @@ app.get(
             password: "123456",
           },
         });
+        
+       return res.redirect("http://localhost:3000/women");
 
-        return res.status(200).send({
-          ...data,
-        });
+        // return res.status(200).send({
+        //   ...data,
+        // });
       }
     } catch (error) {
       res.status(500).send({ success: false, message: error.message });
     }
 
-     //res.redirect("http://localhost:3000/home");
+     
     //res.send({ success: true, user: req.user });
   }
 );

@@ -17,20 +17,18 @@ import {
   Stack,
 } from "@chakra-ui/react";
 import { HamburgerIcon, CloseIcon } from "@chakra-ui/icons";
-import DesignArt from "./DesignArt"; 
+import DesignArt from "./DesignArt";
 
-const Links = ["DESIGN", "ART", "COLLABORATIONS","GIFT GUIDE"];
+const Links = ["DESIGN", "ART", "COLLABORATIONS", "GIFT GUIDE"];
 
 const NavLink = ({ children }) => (
   <Link
- 
     px={2}
     py={1}
     rounded={"md"}
     _hover={{
       textDecoration: "none",
       bg: useColorModeValue("gray.200", "gray.700"),
-      
     }}
     href={"#"}
   >
@@ -92,9 +90,7 @@ export default function Simple() {
           </Box>
         ) : null}
       </Box>
-      <DesignArt/>
-
-
+      <DesignArt />
     </>
   );
 }

@@ -1,3 +1,7 @@
+/* * {
+    background-color: #ffff;
+    color: black;
+} */
 .buyMore_mainDiv {
     display: flex;
     justify-content: center;
@@ -12,17 +16,19 @@
 .designers {
     height: 32rem;
     width: 23rem;
-    /* border: 1px solid red; */
+    
     text-align: center;
     margin-top: -2rem;
     font-weight: bold;
-    background-color: aliceblue;
+    background-color: #ffff;
+    color: black;
     color: rgb(19, 17, 17);
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    /* text-indent: 50px; */
+    
     letter-spacing: 1px;
     line-height: 2;
     border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     
 }
 .designer_hover:hover {
@@ -42,7 +48,7 @@
     
 }
 .buyMore_offer {
-    font-size: 24px;
+    font-size: 26px;
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
 .buyMore_shop {
@@ -59,24 +65,28 @@
 .newArrivalMain {
     display: flex;
     justify-content: center;
-    /* justify-content:space-evenly; */
+  
     gap: 1.7rem;
-    height: 34rem;
-    margin-top: 5rem;
+    height: 39rem;
+    margin-top: 5rem;padding: 10px 0px 10px 0px;
+
+    background-color: rgb(244, 244, 244);
+    padding: 39px 0px 0px 0px;
 }
 .newArrivalProduct {
     text-align: center;
+    height: 34rem;
     background-color: #ffff;
     color: black;
     line-height: 2;
-    /* margin-top: -10px; */
+ 
 }
 .usOff {
     display: flex;
     justify-content: center;
     gap: 1rem;
     text-decoration: line-through;
-    /* justify-content: space-evenly; */
+   
 }
 .stellaM {
     font-weight: 700;
@@ -90,12 +100,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* gap: 1.7rem; */
+   
     width: 24rem;
     height: 34rem;
     font-size: 2.1rem;
     letter-spacing: 2px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
 }
 .watchMainBanner {
     display: flex;
@@ -120,6 +131,19 @@
 .girlBag {
     text-align: center;
 }
+.partyBanner {
+    height: 40rem;
+    width: 65%;
+    
+    margin: auto;
+    margin-top: 6rem;
+}
+
+.hugBanner {
+    width: 90%;
+    margin: auto;
+    margin-top: 6rem;
+}
 
 
 
@@ -132,6 +156,15 @@
 
 
 
+@media screen and (max-width:992px) {
+.watchMainBanner {
+    margin-top: 5rem;
+}
+.partyBanner {
+    margin-top: -1rem;
+    margin-bottom: -15rem;
+}
+}
 
 
 
@@ -139,7 +172,8 @@
 
 
 
-@media screen and (max-width:390px) {
+
+/* @media screen and (max-width:390px) {
 
     .buyMore_mainDiv {
         display: flex;
@@ -160,4 +194,4 @@
         line-height: 2;
         border-radius: 4px;
     }
-}
+} */

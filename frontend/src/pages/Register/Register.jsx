@@ -51,7 +51,7 @@ const Register = () => {
     //   data: val,
     // });
     // console.log(res);
-    navigate("/login");
+    navigate("/women");
   };
 
   const handleSubmit = (e) => {
@@ -134,7 +134,7 @@ const Register = () => {
                   _hover="none"
                 >
                   <a
-                    href="http://localhost:8080/auth/google"
+                    href="https://shy-tan-coypu-garb.cyclic.app/auth/google"
                     style={{
                       display: "inline-flex",
                       justifyContent: "center",
@@ -304,6 +304,14 @@ const Register = () => {
                   borderRadius="none"
                   _hover="none"
                   fontSize="0.8rem"
+                  onClick={() => {
+                    toast({
+                      position: "top",
+                      title: "You have been Register Successfully",
+                      width: "800px",
+                      maxWidth: "100%",
+                    });
+                  }}
                 >
                   REGISTER
                 </Button>

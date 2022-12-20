@@ -1,0 +1,22 @@
+.bill_maindiv {
+  background-color: white;
+  height: 450px;
+  border-radius: 8px;
+  margin: 160px 30px 0px 36px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  /* border: 1px solid red; */
+  margin-top: 50px;
+}
+
+.utter_div {
+  background-color: #f0f4f6;
+  /* height: 700px; */
+}
+
+.total_order {
+  background-color: white;
+  /* height: 100px; */
+  border-radius: 8px;
+  margin: 40px 30px 20px 40px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
