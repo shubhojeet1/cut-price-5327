@@ -1,237 +1,222 @@
-*{
-    padding: 0px;
-    margin: 0px;
+* {
+  padding: 0px;
+  margin: 0px;
 }
-@media only screen and (min-device-width: 480px){
-.upperMenDiv{
+@media only screen and (min-device-width: 480px) {
+  .upperMenDiv {
     width: 100%;
     height: fit-content;
     background-color: #f3f3f3;
     justify-content: space-between;
-    
-}
-    
+  }
 }
 
-
-.NewArrivalDiv{
-    width: 90%;
-    margin: auto;
-    justify-content: space-between;
-    display: flex;
-    align-items: center;
-    margin-top: 50px;
-    padding-bottom: 50px;
+.NewArrivalDiv {
+  width: 90%;
+  margin: auto;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+  padding-bottom: 50px;
 }
-.NewArrivalSlider{
-    width: 70%;
-}
-
-.NewArrival1st > h1{
-    font-size: 30px;
-    
+.NewArrivalSlider {
+  width: 70%;
 }
 
- @media only screen and (min-device-width: 480px){
-    .shopNowDiv{
+.NewArrival1st > h1 {
+  font-size: 30px;
+}
+
+@media only screen and (min-device-width: 480px) {
+  .shopNowDiv {
     width: 40%;
     background-color: aliceblue;
     position: absolute;
     left: 200px;
     top: 500px;
     z-index: 1;
-} 
- }
-@media only screen and (min-device-width: 480px){
- .shopNowDiv > div{
+  }
+}
+@media only screen and (min-device-width: 480px) {
+  .shopNowDiv > div {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 20px;
     padding-bottom: 20px;
-} 
+  }
 }
-@media only screen and (min-device-width: 480px){
- .shopNowDiv > h1{
+@media only screen and (min-device-width: 480px) {
+  .shopNowDiv > h1 {
     font-size: 25px;
     font-weight: 600;
     text-align: center;
-   
-    
-} 
+  }
 }
 
-@media only screen and (min-device-width: 480px){
- .shopNowDiv > p{
+@media only screen and (min-device-width: 480px) {
+  .shopNowDiv > p {
     margin-left: 60px;
     align-items: center;
     color: gray;
   }
 }
 
-
-.designerDiv{
-    width: 90%;
-    margin: auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    gap: 100px;
+.designerDiv {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 100px;
 }
 
-.designerDiv > div > div > h1{
-    font-size: 25px;
-    font-weight: 700;
+.designerDiv > div > div > h1 {
+  font-size: 25px;
+  font-weight: 700;
 }
 
-.designerDiv > div > div > p{
-    font-size: 14px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    color: gray;
+.designerDiv > div > div > p {
+  font-size: 14px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: gray;
 }
-.designerDiv > div > div > h3{
-    font-weight: 500;
-}
-
-.designerDiv > div > div > div{
-     display: flex; 
-     justify-content: center;
-     gap: 20px;
-     font-weight: 500;
+.designerDiv > div > div > h3 {
+  font-weight: 500;
 }
 
-.designerDiv > div> div{ 
-    width: 450px;
-
-} 
-
-.designerDiv > div >img{
-    width: 450px;
+.designerDiv > div > div > div {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-weight: 500;
 }
 
-.designerListDiv{
-    width: 350px;
-    height: 550px;
-    background-color: white;
-    line-height: 2;
-    position: absolute;
-    left: 580px;
-    top: 840px;
-    z-index: 1;
+.designerDiv > div > div {
+  width: 450px;
 }
 
-.designerListDiv > h2{
-    font-size: 15px;
-    font-weight: 600;
-    color: gray;
+.designerDiv > div > img {
+  width: 450px;
 }
 
-.designerListDiv > p{
-    font-size: 18px;
-    font-weight: 600;
+.designerListDiv {
+  width: 350px;
+  height: 550px;
+  background-color: white;
+  line-height: 2;
+  position: absolute;
+  left: 580px;
+  top: 840px;
+  z-index: 1;
 }
 
-
-
-
-.clothHeader{
-    width: 65%;
-    margin: auto;
+.designerListDiv > h2 {
+  font-size: 15px;
+  font-weight: 600;
+  color: gray;
 }
 
-.clothHeader > h1{
-    font-size: 25px;
-    font-weight: 700;
-    margin-bottom: 10px;
+.designerListDiv > p {
+  font-size: 18px;
+  font-weight: 600;
 }
 
-.clothHeader > p{
-   font-size: 11px;
-   color:gray;
-   margin-top: 10px;
-   margin-bottom: 10px;
+.clothHeader {
+  width: 65%;
+  margin: auto;
 }
 
-.clothHeader > h6{
-    font-size: 14px;
-    margin-bottom: 40px;
-    padding-left: 40px;
-    padding-right: 40px;
+.clothHeader > h1 {
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 10px;
 }
 
-.clothHeader > div{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 10px;
+.clothHeader > p {
+  font-size: 11px;
+  color: gray;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
-.clothHeader > div > h4{
-    font-size: 12.5px;
-    font-weight: 600;
-    color:rgb(139, 138, 138);
+.clothHeader > h6 {
+  font-size: 14px;
+  margin-bottom: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
-.clothHeader > div > p{
-    font-size: 11px;
+.clothHeader > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
 }
 
-.clothHeaderStrip{
-    width: 65%;
-    height: 8px;
-    margin: auto;
-    background-color: #f3f3f3;
-    margin-bottom: 40px;
+.clothHeader > div > h4 {
+  font-size: 12.5px;
+  font-weight: 600;
+  color: rgb(139, 138, 138);
 }
 
-.mainClothDiv{
-    width: 65%;
-    margin: auto;
-    display: flex;
-}
-.FiltersDiv{
-    width: 25%;
-}
-.FiltersDiv > img{
-     margin-top: 5px;
-     margin-bottom: 5px;
+.clothHeader > div > p {
+  font-size: 11px;
 }
 
-.MainProductsDiv{
-    width: 100%;
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: auto;
-    gap: 20px;
+.clothHeaderStrip {
+  width: 65%;
+  height: 8px;
+  margin: auto;
+  background-color: #f3f3f3;
+  margin-bottom: 40px;
 }
 
-.clothingDivBox > h4{
-    font-size: 13.5px;
-    font-weight: 650;
+.mainClothDiv {
+  width: 65%;
+  margin: auto;
+  display: flex;
+}
+.FiltersDiv {
+  width: 25%;
+}
+.FiltersDiv > img {
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
-.clothingDivBox> h5{
-    font-size: 13.5px;
-    color: gray;
-}
-.clothingDivBox > h6{
-    font-size: 13.3px;
-    font-weight: 650;
-}
-
-.clothingDivBox> img{
-    width: 200px;
-    display: block;
-    margin: auto;
+.MainProductsDiv {
+  width: 100%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  gap: 20px;
 }
 
+.clothingDivBox > h4 {
+  font-size: 13.5px;
+  font-weight: 650;
+}
 
+.clothingDivBox > h5 {
+  font-size: 13.5px;
+  color: gray;
+}
+.clothingDivBox > h6 {
+  font-size: 13.3px;
+  font-weight: 650;
+}
 
+.clothingDivBox > img {
+  width: 200px;
+  display: block;
+  margin: auto;
+}
 
-
- /* .watchHeartDiv{
+/* .watchHeartDiv{
     width: 85%;
     margin: auto;
     margin-top: 40px;
@@ -242,36 +227,36 @@
     margin-bottom: 100px;
 } */
 
-.watchHeartDiv > div{
-    width:400px;
+.watchHeartDiv > div {
+  width: 400px;
 }
 
 @media only screen and (min-device-width: 480px) {
-    .watchHeartDiv > div > h2{
+  .watchHeartDiv > div > h2 {
     font-size: 20px;
     font-weight: 700;
-}
+  }
 }
 
 @media only screen and (min-device-width: 480px) {
-.watchHeartMidDiv > p{
+  .watchHeartMidDiv > p {
     display: block;
     width: 100%;
     font-size: 15px;
     color: gray;
+  }
 }
-}
-@media only screen and (min-device-width: 480px){
-.watchHeartDiv > div > p{
+@media only screen and (min-device-width: 480px) {
+  .watchHeartDiv > div > p {
     font-size: 15px;
     color: gray;
     font-weight: 700;
     text-align: center;
-}
+  }
 }
 
-@media only screen and (min-device-width: 480px){
-    .watchHeartDiv{
+@media only screen and (min-device-width: 480px) {
+  .watchHeartDiv {
     width: 85%;
     margin: auto;
     margin-top: 40px;
@@ -280,21 +265,16 @@
     gap: 30px;
     justify-content: space-between;
     margin-bottom: 100px;
-
-}
-}
-
-
-@media only screen and (min-device-width: 480px){
-
-    .watchHeartMidDiv >img{
-     width: 100%;
-     height:700px;
-     display: block;
-     box-shadow: #f3f3f3;
-     align-items: center;
-     justify-content: space-between;
-     
-}
+  }
 }
 
+@media only screen and (min-device-width: 480px) {
+  .watchHeartMidDiv > img {
+    width: 100%;
+    height: 700px;
+    display: block;
+    box-shadow: #f3f3f3;
+    align-items: center;
+    justify-content: space-between;
+  }
+}

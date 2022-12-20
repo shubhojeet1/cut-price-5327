@@ -9,7 +9,7 @@ passport.use(
     {
       clientID: process.env.GOOGLE_CLIENT_ID,
       clientSecret: process.env.GOOGLE_CLIENT_SECRET,
-      callbackURL: "http://localhost:8080/auth/google/callback",
+      callbackURL: "https://shy-tan-coypu-garb.cyclic.app/auth/google/callback",
     },
     function (accessToken, refreshToken, profile, cb) {
       // User.findOrCreate({ googleId: profile.id }, function (err, user) {

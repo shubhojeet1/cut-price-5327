@@ -1,9 +1,9 @@
-import React from 'react'
-import MainNavbar from "../component/MainNavbar"
-import NewArrival from "../component/NewArrival"
-import NewBoy from '../component/NewBoy'
-import NewArrivalBoy from '../component/NewBoy'
-import style from './kids.module.css'
+import React from "react";
+import MainNavbar from "../component/MainNavbar";
+import NewArrival from "../component/NewArrival";
+import NewBoy from "../component/NewBoy";
+import NewArrivalBoy from "../component/NewBoy";
+import style from "./kids.module.css";
 
 const Kids = () => {
   return (
@@ -13,7 +13,7 @@ const Kids = () => {
         <div className={style.banner1Div}>
           <img
             style={{
-              width:"100%"
+              width: "100%",
             }}
             className="js1"
             src="https://www.yoox.com/images/yoox80/banners/6821_2_Christmas_Main_K.jpg?634485886869569819#width=1380&height=638"
@@ -98,6 +98,6 @@ const Kids = () => {
       </div>
     </div>
   );
-}
+};
 
-export default Kids
+export default Kids;

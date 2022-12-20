@@ -23,19 +23,19 @@ const btnpressnext = () => {
 const Productdata = [
   {
     name: "ETOR",
-    title: "Full-Length-Jacket",
+    title: "Full-Length-T-shirt",
     price:"$1,222.00",
     image:"https://www.yoox.com/images/items/12/12997969JW_14_f.jpg?impolicy=crop&width=306&height=390"
   },
   {
     name: "ETOR",
-    title: "Full-Length-Jacket",
+    title: "Full-Shirt",
     price:"$1,222.00",
     image:"https://www.yoox.com/images/items/16/16175112HA_14_f.jpg?impolicy=crop&width=306&height=390"
   },
   {
     name: "ETOR",
-    title: "Full-Length-Jacket",
+    title: "Full-Pant",
     price:"$1,222.00",
     image:"https://www.yoox.com/images/items/13/13935174RX_14_f.jpg?impolicy=crop&width=306&height=390"
   },
@@ -103,9 +103,9 @@ const Productdata = [
         Productdata.map((el)=>{
           return <div  className='mycard'>
             <img src={el.image} id="image"></img>
-            <h4 className='text'>{el.name}</h4>
-            <p className='text'>{el.title}</p>
-            <p className='text'>{el.price}</p>
+            <h4 id='text_name'>{el.name}</h4>
+            <p id='text_title'>{el.title}</p>
+            <p id='text_price'>{el.price}</p>
 
 
           </div>

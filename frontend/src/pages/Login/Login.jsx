@@ -11,11 +11,14 @@ import {
   Flex,
   Checkbox,
   Image,
+  useToast,
 } from "@chakra-ui/react";
 import { Link, useNavigate } from "react-router-dom";
 import axios from "axios";
 import googleLogo from "../../assets/GOOG.png";
 import { userLogin } from "../../redux/auth.reduser";
+
+const data = JSON.parse(localStorage.getItem("user")) || "";
 
 const initialState = {
   email: "",
@@ -25,6 +28,8 @@ const initialState = {
 const Login = () => {
   const [value, setValue] = useState(initialState);
   const navigate = useNavigate();
+  const toast = useToast();
+  const [userData, setUserData] = useState(data);
 
   const storeState = useSelector((state) => state);
   const dispatch = useDispatch();
@@ -33,27 +38,21 @@ const Login = () => {
 
   const handleLoginData = async (val) => {
     try {
-      dispatch(userLogin(val));
+      //dispatch(userLogin(val));
 
-      // const res = await axios(`http://localhost:8080/api/v1/login`, {
+      // const res = await axios(`https://shy-tan-coypu-garb.cyclic.app/api/v1/login`, {
       //   method: "post",
       //   data: val,
       // });
       // console.log(res);
+      // localStorage.setItem("user", JSON.stringify(res));
+      // setUserData(res);
 
-      setToken(storeState.authentication.token);
+      //setToken(storeState.authentication.token);
 
-      if (token) {
-        navigate("/home");
-      } else {
-        setStatus(!status);
-
-        setTimeout(() => {
-          console.log("timeOut");
-          setStatus(!status);
-          console.log(status);
-        }, 1000);
-      }
+      // if (res.data.token) {
+      //   navigate("/women");
+      // }
     } catch (error) {
       console.log(error.message);
     }
@@ -63,19 +62,13 @@ const Login = () => {
     e.preventDefault();
     //console.log(value);
     handleLoginData(value);
+    
   };
-
-  if (storeState.authentication.token) {
-    // navigate to product or homepage
-    navigate("/home");
-    return;
-  }
 
   return (
     <>
       <Container w="350px" boxShadow="rgba(99, 99, 99, 0.2) 0px 2px 8px 0px">
         <Center>
-          {/* {!status ? "Invalid Credentials" : null} */}
           <Stack>
             <Box m="1" p="1" textAlign="center">
               <Text
@@ -122,7 +115,7 @@ const Login = () => {
                   border="1px solid lightgray"
                 >
                   <a
-                    href="http://localhost:8080/auth/google"
+                    href="https://shy-tan-coypu-garb.cyclic.app/auth/google"
                     style={{
                       display: "inline-flex",
                       justifyContent: "center",
@@ -152,6 +145,7 @@ const Login = () => {
                     setValue({ ...value, [e.target.name]: e.target.value })
                   }
                   name="email"
+                  required
                 />
                 <Input
                   m="1"
@@ -167,6 +161,8 @@ const Login = () => {
                     setValue({ ...value, [e.target.name]: e.target.value })
                   }
                   name="password"
+                  type="password"
+                  required
                 />
 
                 <Flex m="1" p="1">
@@ -197,6 +193,7 @@ const Login = () => {
                     Forgot your password?
                   </Link>
                 </Text>
+
                 <Button
                   type="submit"
                   w="100%"
@@ -207,6 +204,14 @@ const Login = () => {
                   p="1"
                   fontSize="0.875rem"
                   _hover="none"
+                  onClick={() => {
+                    toast({
+                      position: "top",
+                      title: "You have been Login Successfully",
+                      width: "800px",
+                      maxWidth: "100%",
+                    });
+                  }}
                 >
                   LOG IN
                 </Button>

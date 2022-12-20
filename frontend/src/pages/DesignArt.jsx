@@ -36,11 +36,8 @@ const DesignArt = () => {
       <div className="bott_2">
         <h1 className="">SOCIAL LOOK</h1>
         <p>The new photoshoot by Living Corriere</p>
-
       </div>
-      <div className="bott_3">
-
-      </div>
+      <div className="bott_3"></div>
     </div>
   );
 };

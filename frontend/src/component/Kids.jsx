@@ -1,6 +1,6 @@
 import React from 'react';
 import "./Kids.css";
-import "./Navbar.css"
+
 
 function Kids() {
     return (
