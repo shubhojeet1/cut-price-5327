@@ -15,23 +15,26 @@ Clone of fashion products E-commerce website.  We have added Authentication func
 
 <h2 align="left"><i>Deployed link</i></h2>
   <a href="https://smart-point.vercel.app" target="_blank">
-  <img alt="Netlify" src="https://console.dev/img/favicons/vercel.com.png"/>
+  <img alt="Versel" src="https://console.dev/img/favicons/vercel.com.png"/>
   </a>
 <h3 align="left"><a href="https://smart-point.vercel.app" target="_blank">YOOX.COM</a></h3>
 
 <h1>Contributors</h1>
     <ul>
-        <li><a href="https://github.com/gunjankuthe111" target="_blank">@Shubhojeet Chatterjee</a></li>
-        <li><a href="https://github.com/shubhojeet1" target="_blank">@Himanshu Singh</a></li>
-        <li> <a href="https://github.com/VK14133M02" target="_blank">@Shubham Pandey</a> </li>
-        <li><a href="https://github.com/shubhojeet1" target="_blank">@Priyanka Ingle</a></li>
-        <li><a href="https://github.com/gprasadbhat948231" target="_blank">@Souvik Patra</a></li>
+        <li><a href="https://github.com/shubhojeet1" target="_blank">@Shubhojeet Chatterjee</a></li>
+        <li><a href="https://github.com/HimanshuSingh1407" target="_blank">@Himanshu Singh</a></li>
+        <li> <a href="https://github.com/Shubh596" target="_blank">@Shubham Pandey</a> </li>
+        <li><a href="https://github.com/priyanka1565" target="_blank">@Priyanka Ingle</a></li>
+        <li><a href="https://github.com/iam-souvik" target="_blank">@Souvik Patra</a></li>
     </ul>
 <h2>Project Outcome</h2>
 <p>Gained great experience of ReactJs, CSS and Google Auth,</p>
 <p>Learned Team collaboration,</p>
 <p>Learn how to lead a team,</p>
 <p>Project presentation skill improved.</p>
+
+<h2>Project Duration</h2>
+<p> 5 DAYS</p>  
 
 <h2>ScreenShots<h2>
 <h4>Landing Page</h4>
@@ -83,4 +86,4 @@ Clone of fashion products E-commerce website.  We have added Authentication func
 
 
 
-<h1 align="center"> Thank You !!!</h1>
+<h1 align="center"> Thank You 😊!!!</h1>
