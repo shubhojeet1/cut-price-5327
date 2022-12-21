@@ -28,7 +28,7 @@ Clone of fashion products E-commerce website.  We have added Authentication func
         <li><a href="https://github.com/iam-souvik" target="_blank">@Souvik Patra</a></li>
     </ul>
 <h2>Project Outcome</h2>
-<p>Gained great experience of ReactJs, CSS and Google Auth,</p>
+<p>Gained great experience of ReactJs, CSS , Google Auth and Chakra UI</p>
 <p>Learned Team collaboration,</p>
 <p>Learn how to lead a team,</p>
 <p>Project presentation skill improved.</p>
